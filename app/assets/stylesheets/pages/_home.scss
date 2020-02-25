@@ -1,6 +1,11 @@
 // Specific CSS for your home-page
+h1 {
+  font-weight: bold;
+}
+
 .main-cont {
   position: relative;
   top: 10vh;
   padding: 50px;
+  height: 100%;
 }
