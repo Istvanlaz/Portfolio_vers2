@@ -1,11 +1,16 @@
 <div class="main-cont">
   <div class="title-cont">
     <h1>Pleased to meet you</h1>
+    <div class="scroll-down">
+      <i class="fas fa-long-arrow-alt-down"></i>
+    </div>
   </div>
   <div class="intro-about">
-    <div class="article-number" id="article-number-1">01</div>
     <div class="descriptif">
-      <h2>Alicia Gaborit</h2>
+      <div class="titre-about">
+        <h2>Alicia Gaborit</h2>
+        <div class="article-number" id="article-number-1">01</div>
+      </div>
       <p>
         Récemment diplômée d'un Master 2 en évènementiel et relation presse, j'ai décidé de me
         lancer à mon compte pour renouer avec le graphisme : ma passion première dans les métiers
@@ -14,7 +19,7 @@
       </p>
     </div>
     <div class="descriptif-pic">
-      <img src="https://cloudinary-a.akamaihd.net/hopwork/image/upload/h_360,w_360,c_thumb,g_face,z_0.4,q_90,dpr_2.0/yqg4gex24f99867jb1wg.webp" alt="Alicia Gaborit">
+      <%= image_tag("about/Alicia_Picture_About.jpg", alt: "Alicia Gaborit") %>
     </div>
   </div>
   <div class="skills-about">

@@ -1,6 +1,28 @@
 // Specific CSS for your home-page
+body {
+  font-family: 'Roboto';
+  background-color: #F9F9F9;
+  color: rgb(35,35,35);
+}
+
+h1, h2 {
+  font-family: 'Yeseva One';
+  // font-weight: bold;
+}
+
 h1 {
-  font-weight: bold;
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Roboto';
+  // font-weight: bold;
 }
 
 .main-cont {

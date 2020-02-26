@@ -1,0 +1,13 @@
+.scroll-down {
+  position: absolute;
+  top: 70vh;
+  font-size: 3rem;
+  color: rgb(35,35,35);
+  padding: 0 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    top: 68vh;
+  }
+}
+
