@@ -21,3 +21,16 @@
 //   text-align: center;
 //   background-color: green;
 // }
+
+.brand-card {
+  height: 25vh;
+  width: 25vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #C1C1C1;
+}
