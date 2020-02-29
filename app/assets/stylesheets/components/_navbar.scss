@@ -7,7 +7,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 5vw;
-  background-color: #fee359;
+  background-color: transparent;
   width: 100vw;
   height: 10vh;
   position: fixed;
@@ -244,6 +244,33 @@ body {
   }
 }
 
+// Title letters spanning
+
+.title-cont span {
+  opacity: 0;
+  transition: transform 800ms, opacity 800ms;
+}
 
 
+.title-cont span {
+  transform: translateZ(0) translateY(-2rem);
 
+}
+
+.title-cont:hover span {
+  opacity: 1;
+  color: inherit;
+  transform: translateZ(0) translateY(0);
+  pointer-events: none;
+}
+
+// @keyframes titleAnimation {
+//   from{
+//     opacity: 0;
+//     transform: translateX(50px);
+//   }
+//   to{
+//     opacity: 1;
+//     transform: translateX(0px);
+//   }
+// }
