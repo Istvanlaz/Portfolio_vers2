@@ -9,6 +9,12 @@ const navSlide = () => {
     nav.classList.toggle('nav-active');
     // Toggle Nav Social Media
     navMedia.classList.toggle('nav-active');
+    //Animate Background-colour
+      if (nav.style.animation) {
+        nav.style.animation = '';
+      } else {
+        nav.style.animation = 'colorTransition 1.5s ease forwards 0s';
+      }
     // Animate Links
     navLinks.forEach((link, index) => {
       if (link.style.animation) {

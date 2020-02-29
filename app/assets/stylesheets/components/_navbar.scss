@@ -23,7 +23,8 @@ body {
   height: 90vh;
   width: 100vw;
   top: 10vh;
-  background-color: #fee359;
+  background-color: #F9F9F9;
+
   padding: 0 7vw;
 
   display: flex;
@@ -52,7 +53,7 @@ body {
 .navbar-item :hover{
   text-decoration: none;
   // color: #F4F4F4;
-  color: #335d73;
+  color: #fee359;
   // opacity: 70%;
   cursor: pointer;
 }
@@ -183,3 +184,66 @@ body {
   // transform: rotate(-45deg) translate(-3.5px, -5.5px);
   // transform: rotate(45deg) translate(-26%, -205%);
 }
+
+// Linking :hover styler
+
+.navbar-item::before{
+  transition: opacity 200ms;
+  transition-delay: 1000ms;
+}
+
+.navbar-item:hover::before{
+  opacity: 0;
+  transition-delay: 0;
+}
+
+.title-hover {
+  text-transform: uppercase;
+  display: block;
+  position: absolute;
+  width: 200%;
+  top: 50%;
+  left: 25%;
+  letter-spacing: .05em;
+  padding-left: .05em;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+.title-hover {
+  transition-delay: 0;
+  display: inline-block;
+}
+
+.title-hover {
+  opacity: 0;
+  transition: transform 800ms, opacity 800ms;
+}
+
+
+.title-hover {
+  transform: translateZ(0) translateY(-2rem);
+
+}
+
+.navbar-item:hover .title-hover {
+  opacity: 1;
+  color: inherit;
+  transform: translateZ(0) translateY(0);
+  pointer-events: none;
+}
+
+// Backgroung Color Transition
+
+@keyframes colorTransition {
+  from{
+    background-color: #fee359;
+  }
+  to{
+    background-color: #F9F9F9
+  }
+}
+
+
+
+
