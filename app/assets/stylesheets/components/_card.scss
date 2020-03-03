@@ -38,6 +38,19 @@
   background-color: #C1C1C1;
 }
 
+.skills-title, .skill-link {
+  text-transform: uppercase;
+}
+
+.skill-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.skill-descr {
+  color: #5d5d5d;
+}
+
 .skill-pic video {
   height: 35vh;
   width: 40vh;
