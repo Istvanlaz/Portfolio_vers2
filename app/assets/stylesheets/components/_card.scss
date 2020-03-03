@@ -7,11 +7,14 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 0 10%;
 }
 
 .skill-info {
   height: 35%;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -33,4 +36,23 @@
   text-align: center;
   border-radius: 50%;
   background-color: #C1C1C1;
+}
+
+.skills-title, .skill-link {
+  text-transform: uppercase;
+}
+
+.skill-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.skill-descr {
+  color: #5d5d5d;
+}
+
+.skill-pic video {
+  height: 35vh;
+  width: 40vh;
+  object-fit: cover;
 }

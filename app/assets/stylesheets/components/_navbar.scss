@@ -185,6 +185,11 @@ body {
   // transform: rotate(45deg) translate(-26%, -205%);
 }
 
+// Changing Navbar Background Colour when nav-active
+.nav-background {
+  background-color: #F9F9F9;
+}
+
 // Linking :hover styler
 
 .navbar-item::before{
