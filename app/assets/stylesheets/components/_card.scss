@@ -11,8 +11,11 @@
 
 .skill-info {
   height: 35%;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+
   display: flex;
-  padding: 10%;
   flex-direction: column;
   justify-content: space-around;
 }
