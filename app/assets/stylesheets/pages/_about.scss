@@ -87,17 +87,18 @@
 
 .resume-about {
   position: relative;
-  height: 180vh;
+  height: 265vh;
 }
 
 .resume-top {
-  height: 60%;
+  height: 33%;
 }
 
 .resume-bottom {
-  height: 40%;
+  height: 67%;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .resume-title {
@@ -113,20 +114,33 @@
   position: absolute;
 }
 
+.resume-pic img {
+  object-fit: cover;
+  height: 45vh;
+  width: 45vh;
+}
+
 #pic-top {
-  right: 10%;
-  top: 20%;
+  right: 5%;
+  top: 14%;
+}
+
+#pic-center {
+  left: 5%;
+  bottom: 42%;
+}
+
+#pic-center img {
+  object-fit: scale-down;
 }
 
 #pic-bottom {
-  left: 8%;
-  bottom: 9%;
+  right: 4%;
+  bottom: 8%;
 }
 
-.resume-pic img {
-  object-fit: cover;
-  height: 40vh;
-  width: 40vh;
+#pic-bottom img {
+  object-fit: scale-down;
 }
 
 .academic-info {
@@ -139,10 +153,16 @@
   align-items: flex-start;
 }
 
-#academic-bottom {
+#academic-center {
   align-items: flex-end;
   height: 100%;
 }
+
+#academic-bottom {
+  height: 100%;
+  width: 100%;
+}
+
 
 .experience-about {
   height: 90vh;
