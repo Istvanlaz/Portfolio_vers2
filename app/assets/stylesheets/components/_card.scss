@@ -38,7 +38,7 @@
   background-color: #C1C1C1;
 }
 
-.skills-title, .skill-link {
+.skill-title, .skill-link {
   text-transform: uppercase;
 }
 
@@ -56,3 +56,24 @@
   width: 40vh;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1024px) {
+  .skillset-card {
+    height: 50vh;
+    width: 85%;
+    margin: 3vh 0;
+  }
+
+  .skill-pic video {
+    height: 25vh;
+    width: 30vh;
+    object-fit: cover;
+  }
+
+  .brand-card {
+    height: 20vh;
+    width: 20vh;
+  }
+}
+
+

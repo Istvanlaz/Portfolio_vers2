@@ -19,7 +19,7 @@ body {
 
 .navbar-links {
   position: absolute;
-  right: 0px;
+  right: 0;
   height: 90vh;
   width: 100vw;
   top: 10vh;
@@ -60,7 +60,7 @@ body {
 
 .social-media-links {
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 92vh;
   padding: 0 7vw;
 
@@ -249,25 +249,6 @@ body {
   }
 }
 
-// Title letters spanning
-
-.title-cont span {
-  opacity: 0;
-  transition: transform 800ms, opacity 800ms;
-}
-
-
-.title-cont span {
-  transform: translateZ(0) translateY(-2rem);
-
-}
-
-.title-cont:hover span {
-  opacity: 1;
-  color: inherit;
-  transform: translateZ(0) translateY(0);
-  pointer-events: none;
-}
 
 // @keyframes titleAnimation {
 //   from{

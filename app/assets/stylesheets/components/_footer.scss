@@ -76,3 +76,17 @@
 //   text-decoration: none;
 //   font-size: 14px;
 // }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    height: 90vh;
+  }
+
+  .footer-top-left {
+    width: 45%;
+  }
+
+  .footer-bottom-right {
+    width: 90%;
+  }
+}
